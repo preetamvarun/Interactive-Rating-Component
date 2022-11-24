@@ -1,16 +1,17 @@
 .Main-Dashboard{
-    background-color: grey;
+    background-image: linear-gradient(hsl(213, 19%, 18%),hsl(213, 19%, 18%));
     color : white;
     position : absolute;
     top : 50%;
     left : 50%;
     transform: translate(-50%,-50%);
-    border-radius : 10px;
-    width : 400px;
+    border-radius : 15px;
+    width : 390px;
 }
 
 .Main-Dashboard p{
-    line-height: 1.5rem;
+    line-height: 1.65rem;
+    font-weight: 15px;
 }
 
 .Main-Dashboard h1, .Main-Dashboard p{
@@ -18,7 +19,6 @@
 }
 
 .Main-Dashboard .Rating-Links{
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,7 +26,7 @@
 }
 
 .Main-Dashboard .Rating-Links .Rating-Value{
-    background-color : blue;
+    background-color : hsla(221, 13%, 28%, 0.463);
     border-radius : 100%;
     padding : .85rem 1.25rem;
     border : none;
@@ -40,6 +40,9 @@
     text-align : center;
     margin : 1rem;
     border-radius : 25px;
-    padding : 1rem 0rem;
+    padding : .7rem 0rem;
+    letter-spacing: .25rem;
+    font-size : .75rem;
+    font-weight: 700;
 }
 
