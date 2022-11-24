@@ -1,19 +1,35 @@
 .Main-Dashboard{
-    background-color: hsl(216, 12%, 8%);
+    background-color: grey;
     color : white;
     position : absolute;
     top : 50%;
     left : 50%;
     transform: translate(-50%,-50%);
     border-radius : 10px;
+    width : 400px;
+}
+
+.Main-Dashboard p{
+    line-height: 1.5rem;
+}
+
+.Main-Dashboard h1, .Main-Dashboard p{
+    margin : 1.25rem;
 }
 
 .Main-Dashboard .Rating-Links{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin : 1rem 0rem;
+    justify-content: space-between;
+    margin : 1.5rem;
+}
+
+.Main-Dashboard .Rating-Links .Rating-Value{
+    background-color : blue;
+    border-radius : 100%;
+    padding : .85rem 1.25rem;
+    border : none;
 }
 
 .Main-Dashboard .Submit-Btn{
@@ -22,4 +38,8 @@
     color : #fff;
     background-color : hsl(25, 97%, 53%);
     text-align : center;
+    margin : 1rem;
+    border-radius : 25px;
+    padding : 1rem 0rem;
 }
+
