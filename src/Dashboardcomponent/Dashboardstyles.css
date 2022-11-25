@@ -9,6 +9,10 @@
     width : 390px;
 }
 
+.Vanish-Dashboard{
+    display: none;
+}
+
 .Main-Dashboard p{
     line-height: 1.65rem;
     font-weight: 15px;
@@ -32,6 +36,18 @@
     border : none;
 }
 
+.Result-Dashboard{
+    height : 50px;
+    width : 50px;
+    border-radius : 50px;
+    background-color : green;
+}
+
+.Main-Dashboard .Rating-Links .Rating-Value:hover{
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+}
+
 .Main-Dashboard .Submit-Btn{
     text-decoration: none;
     display: block;
@@ -46,3 +62,12 @@
     font-weight: 700;
 }
 
+.Circle{
+    height : 30px;
+    width : 30px;
+    background-color : hsl(216, 12%, 8%);
+    border-radius: 50px;
+    position: absolute;
+    top : 25px;
+    transform: translateX(58%);
+}
