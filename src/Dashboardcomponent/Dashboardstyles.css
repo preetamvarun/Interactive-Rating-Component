@@ -1,4 +1,4 @@
-.Main-Dashboard{
+.Main-Dashboard, .Result-Dashboard{
     background-image: linear-gradient(hsl(213, 19%, 18%),hsl(213, 19%, 18%));
     color : white;
     position : absolute;
@@ -13,13 +13,34 @@
     display: none;
 }
 
-.Main-Dashboard p{
+.Main-Dashboard p, .Result-Dashboard p{
     line-height: 1.65rem;
     font-weight: 15px;
 }
 
-.Main-Dashboard h1, .Main-Dashboard p{
+.Main-Dashboard h1, .Main-Dashboard p, .Result-Dashboard h1, .Result-Dashboard p{
     margin : 1.25rem;
+}
+
+.Result-Dashboard p{
+    color :hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+}
+
+.Result-Dashboard h1, .Result-Dashboard p{ text-align:  center;}
+
+.Result-Dashboard .selectRating{
+    background-color: hsl(217, 10%, 26%);
+    display: inline-block;
+    margin-left : 0rem;
+    margin-bottom : 0rem;
+    position: relative;
+    left : 50%;
+    transform: translateX(-50%);
+    padding : .6rem 1.35rem;
+    border-radius: 25px;
+    font-size : .85rem;
+    color : hsl(25, 97%, 53%);
 }
 
 .Main-Dashboard .Rating-Links{
@@ -34,13 +55,6 @@
     border-radius : 100%;
     padding : .85rem 1.25rem;
     border : none;
-}
-
-.Result-Dashboard{
-    height : 50px;
-    width : 50px;
-    border-radius : 50px;
-    background-color : green;
 }
 
 .Main-Dashboard .Rating-Links .Rating-Value:hover{
@@ -62,6 +76,11 @@
     font-weight: 700;
 }
 
+.Main-Dashboard .Submit-Btn:hover{
+    background-color: #fff;
+    color : hsl(25, 97%, 53%);
+}
+
 .Circle{
     height : 30px;
     width : 30px;
@@ -71,3 +90,5 @@
     top : 25px;
     transform: translateX(58%);
 }
+
+
